@@ -1,0 +1,54 @@
+#mainpage {
+  display: inline-block;
+}
+
+#mainpage p {
+  position: relative;
+  text-align:center;
+  font-size: 1em;
+  font-family: KaiTi;
+  letter-spacing: 2px;
+  color: black;
+  border: 2px solid lightblue;
+  border-radius: 4px 4px 0 0;
+}
+
+#mainpage label {
+  font-family: KaiTi;
+  font-size: 2em;
+  padding-top: 3%;
+  color: black;
+} 
+
+#get {
+  position: absolute;
+  right: 5%;
+}
+
+#searchpart {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+#keywordsearch {
+  width: 85%;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#searchBtn {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#searchBtn i {
+  padding: 0;
+  color: dimgray;
+  border: 0;
+  margin-top: 1%;
+  margin-right: 2%;
+}

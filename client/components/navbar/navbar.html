@@ -1,0 +1,29 @@
+<div>
+  <div class="container"> 
+    <div class="navbar-header"> 
+      <img href="/" class="col-md-offset-1" src="/assets/images/new_brand.jpg"/>
+    </div>
+  </div>
+  <div class="nav nav-tabs col-md-offset-1">
+    <li><a href="/main">网站主页</a></li>
+    <li><a href="/introduction">公司简介</a></li>
+    <li><a href="/permission">公司资质</a></li>
+    <li><a href="/item">仪器设备</a></li>
+    <li><a href="/news">新闻中心</a></li>
+    <li><a href="/project">项目展示</a></li>
+    <li><a href="/honor">公司荣誉</a></li>
+    <li><a href="/staff">人员简介</a></li>
+    <li><a href="/contact">联系我们</a></li>
+    <li ng-show="$ctrl.state_cookie==1">
+      <a href="/profile">账号信息</a>
+    </li>
+    <li ng-show="!$ctrl.state_cookie" ng-click="$ctrl.login()">
+      <a href="#">登陆</a>
+    </li>
+    <li ng-show="$ctrl.state_cookie" ng-click="$ctrl.logout()"><a href="#">登出</a>
+    </li>
+  </div>
+  <embed class="col-md-offset-1" src="/assets/images/flash.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1000" height="250"></embed>
+  </br>
+  </br>
+</div>
